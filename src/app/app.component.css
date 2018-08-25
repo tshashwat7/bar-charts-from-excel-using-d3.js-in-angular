@@ -1,0 +1,40 @@
+.result-container{
+    border: 1px solid gray;
+    overflow: auto;
+    border-radius: 4px;
+    padding: 10px
+}
+
+.fillBlue{
+    fill: blue;
+}
+.fillRed{
+    fill: red;
+}
+.fillGreen{
+    fill: green;
+}
+.axis .domain {
+  display: none;
+}
+g .tooltip{
+    white-space: pre;
+    word-wrap: break-word;
+}
+button{
+    padding: 1%;
+}
+.graph{
+    border: 1px solid blue;
+}
+.tooltip-inner {
+    white-space: pre-line;
+}
+::-ms-tooltip{
+    white-space: pre;
+}
+text[Attributes] {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: pre;
+}
